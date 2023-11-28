@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  background-color: rgb(39, 39, 39);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#clock {
+  background-color: black;
+  padding: 3rem 4rem;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  transition: 0.5s ease-in-out;
+}
+
+#clock:hover {
+  transform: translatey(-20px);
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
